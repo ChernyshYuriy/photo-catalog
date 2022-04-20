@@ -6,6 +6,9 @@
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+body{
+  margin: 0;
+}
 .container {
   font-family: "Roboto", sans-serif;
   width: clamp(310px, 86vw, 1800px);
