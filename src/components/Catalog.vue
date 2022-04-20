@@ -100,7 +100,7 @@ export default {
       }
     },
     handleResizeWindow() {
-      if (window.outerWidth < 820 && window.outerWidth > 400) {
+      if (window.outerWidth <= 820 && window.outerWidth > 400) {
         this.columnsCatalog = [
           {
             orderKey: "two_col_order",
